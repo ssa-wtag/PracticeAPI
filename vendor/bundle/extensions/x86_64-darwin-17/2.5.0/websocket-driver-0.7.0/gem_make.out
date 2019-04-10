@@ -1,0 +1,15 @@
+current directory: /Users/subratosarker/RubymineProjects/PracticeAPI/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+/Users/subratosarker/.rvm/rubies/ruby-2.5.3/bin/ruby -r ./siteconf20190410-11876-nwdj3q.rb extconf.rb
+creating Makefile
+
+current directory: /Users/subratosarker/RubymineProjects/PracticeAPI/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/subratosarker/RubymineProjects/PracticeAPI/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/subratosarker/RubymineProjects/PracticeAPI/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20190410-11876-10ip47m
