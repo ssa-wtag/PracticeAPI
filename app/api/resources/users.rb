@@ -28,13 +28,14 @@ module Resources
 
       desc 'Handshakes with slack'
       params do
-        requires :token, type: String
-        requires :challenge, type: String
-        requires :type, type: String
+        optional :token, type: String
+        optional :challenge, type: String
+        optional :type, type: String
       end
       post :accept_challenge do
         status 200
-        { 'challenge': params[:challenge] }
+        puts params.to_s
+        { 'challenge': params.to_s }
 
       end
     end
